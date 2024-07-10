@@ -7,7 +7,13 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: { 
+    extend: {
+      width: {
+        '1320': '1320px'
+      } ,
+      height: {
+        '847px': '847px',
+      },
       fontFamily: {
         sans: ['Roboto', 'sans-serif'],
       },
