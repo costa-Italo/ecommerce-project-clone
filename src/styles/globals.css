@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply font-sans;
-}
+
 
 :root {
   --primary: #FF6F61;
