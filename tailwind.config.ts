@@ -23,6 +23,7 @@ const config: Config = {
         white: 'var(--white)',
         dark: 'var(--dark)',
         stroke: 'var(--stroke)',
+        colorButtom: '#1e2832',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
