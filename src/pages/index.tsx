@@ -1,3 +1,4 @@
+import Brand from "@/components/Brand";
 import TopMain from "@/components/TopMain";
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <div> 
       
       <TopMain />
+      <Brand />
       
     </div>
     
