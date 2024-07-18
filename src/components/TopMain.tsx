@@ -5,7 +5,9 @@ import IconBag from "../assets/icon-bag.svg";
 import Line from "../assets/line.svg";
 import ImageProduct from "../assets/19.png";
 import IconBagWhite from "../assets/icon-bag-white.svg";
-
+import Rectangle from "../assets/Rectangle.svg";
+import Flower from "../assets/flower.svg";
+import Frame from "../assets/Frame.svg";
 const TopMain = () => {
     return (
         <div className="bg-#f4f4f5 w-full h-847px">
@@ -42,18 +44,26 @@ const TopMain = () => {
                 </ul>
             </div>
 
-            <div className="flex flex-row justify-evenly mt-28 items-center">
+            <div className="flex flex-row justify-between mt-28 items-center">
                 <div>
+                    <img className="mt-96" src={Frame.src} alt="" />
+                </div>
+                <div className="">
                     <h1 className="text-6xl font-light text-#1E2832">Collections</h1>
                     <p className="mt-10 font-medium">You Can Explore And Shop Many Different Collection</p>
-                    <p className="mt-10 font-medium">From Various Barands Here</p>
+                    <p className="mt-10 font-medium">From Various Barands Here.</p>
                     <button className=" flex flex-row justify-evenly items-center mt-10 bg-colorButtom text-white w-40 h-14">
                         <img src={IconBagWhite.src} alt="" />
                         Shop Now</button>
                 </div>
-                <div>
-                    <img src={ImageProduct.src} alt="" />
-                </div>
+                <div className="relative flex items-center">
+    <img className="relative z-10 rounded-custom-1 w-72 top-10 h-96" src={ImageProduct.src} alt="ImageProduct" />
+    <img className=" absolute top-14 left-4 w-72 h-96" src={Rectangle.src} alt="Rectangle" />
+</div>
+<div>
+    <img className="" src={Flower.src} alt="" />
+</div>
+
             </div>
         </div>
     )
