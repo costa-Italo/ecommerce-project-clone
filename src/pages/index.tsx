@@ -1,4 +1,5 @@
 import Brand from "@/components/Brand";
+import HotCategory from "@/components/HotCategory";
 import TopMain from "@/components/TopMain";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
       
       <TopMain />
       <Brand />
+      <HotCategory />
       
     </div>
     

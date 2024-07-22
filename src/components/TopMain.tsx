@@ -10,8 +10,8 @@ import Flower from "../assets/flower.svg";
 import Frame from "../assets/Frame.svg";
 const TopMain = () => {
     return (
-        <div className="bg-slate-50 w-full h-847px">
-            <header className="flex items-center justify-between p-4  max-w-[1320px] mx-auto mt-5">
+        <div className=" bg-slate-100 w-full h-847px">
+            <header className="flex items-center justify-between p-4  max-w-[1320px] mx-auto">
                 <div className="flex items-center">
                     <img src={SearchIcon.src} alt="Ícone de pesquisa" />
                 </div>
