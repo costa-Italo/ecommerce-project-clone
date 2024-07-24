@@ -1,16 +1,12 @@
-import Brand from "@/components/Brand";
-import HotCategory from "@/components/HotCategory";
-import TopMain from "@/components/TopMain";
+import Navbar from '@/components/Navbar'
+import React from 'react'
 
-export default function Home() {
+const index = () => {
   return (
-    <div> 
-      
-      <TopMain />
-      <Brand />
-      <HotCategory />
-      
+    <div>
+      <Navbar />
     </div>
-    
-  );
+  )
 }
+
+export default index
