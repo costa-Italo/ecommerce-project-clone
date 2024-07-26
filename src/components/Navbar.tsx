@@ -6,9 +6,9 @@ import iconBag from "../assets/icon-bag.svg"
 
 const Navbar = () => {
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col  bg-gray-800 bg-opacity-10">
             <div className="flex gap-5 justify-between items-center px-5 mt-1 w-full whitespace-nowrap max-md:flex-wrap max-md:max-w-full">
-                <div className="self-stretch my-auto text-xl font-black text-center text-gray-800 border border-white border-solid">
+                <div className="self-stretch my-auto text-xl font-black text-center text-gray-800">
                     <img src={iconSearch.src} alt="" />
                 </div>
                 <div className="flex gap-3 items-center self-stretch px-0.5 my-auto text-3xl text-black">
@@ -27,7 +27,7 @@ const Navbar = () => {
                     />
                 </div>
                 <div className="flex gap-5 justify-center self-stretch">
-                    <div className="flex gap-2 justify-between px-1 py-0.5 bg-white">
+                    <div className="flex gap-2 justify-between px-1 py-0.5">
                         <div className="text-xl font-black text-center text-gray-800">
                             <img src={iconUser.src} alt="" />
                         </div>
