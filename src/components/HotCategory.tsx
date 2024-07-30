@@ -6,7 +6,7 @@
 
     const HotCategory = () => {
     return (
-        <div>
+        <div className="mt-10 p-16">
             <div className="flex gap-5 max-md:flex-col">
                 <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
                     <img 
