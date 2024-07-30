@@ -1,3 +1,4 @@
+import Banner from '@/components/Banner'
 import Brand from '@/components/Brand'
 import Gridproducts from '@/components/Gridproducts'
 import HotCategory from '@/components/HotCategory'
@@ -13,6 +14,7 @@ const index = () => {
       <Brand />
       <HotCategory />
       <Gridproducts />
+      <Banner />
     </div>
   )
 }
