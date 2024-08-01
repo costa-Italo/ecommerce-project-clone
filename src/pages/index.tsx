@@ -3,6 +3,7 @@ import Brand from '@/components/Brand'
 import Gridproducts from '@/components/Gridproducts'
 import HotCategory from '@/components/HotCategory'
 import Navbar from '@/components/Navbar'
+import SlideProducts from '@/components/SlideProducts'
 import Topmain from '@/components/Topmain'
 import React from 'react'
 
@@ -15,6 +16,7 @@ const index = () => {
       <HotCategory />
       <Gridproducts />
       <Banner />
+      <SlideProducts />
     </div>
   )
 }
