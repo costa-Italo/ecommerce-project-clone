@@ -1,8 +1,10 @@
 import Banner from '@/components/Banner'
 import Brand from '@/components/Brand'
+import Footer from '@/components/Footer'
 import Gridproducts from '@/components/Gridproducts'
 import HotCategory from '@/components/HotCategory'
 import Navbar from '@/components/Navbar'
+import NewsLetter from '@/components/NewsLetter'
 import SlideProducts from '@/components/SlideProducts'
 import Topmain from '@/components/Topmain'
 import React from 'react'
@@ -17,6 +19,8 @@ const index = () => {
       <Gridproducts />
       <Banner />
       <SlideProducts />
+      <NewsLetter />
+      <Footer />
     </div>
   )
 }
