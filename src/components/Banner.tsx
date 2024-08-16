@@ -1,4 +1,3 @@
-import React from 'react';
 import BannerImg from "../assets/zara-banner.png";
 import ZaraLogo01 from "../assets/zara-logo1.svg";
 import ZaraLogo02 from "../assets/zara-logo2.svg";

@@ -1,6 +1,7 @@
 import Banner from '@/components/Banner'
 import Brand from '@/components/Brand'
 import Footer from '@/components/Footer'
+import FooterCards from '@/components/FooterCards'
 import Gridproducts from '@/components/Gridproducts'
 import HotCategory from '@/components/HotCategory'
 import Navbar from '@/components/Navbar'
@@ -21,6 +22,7 @@ const index = () => {
       <SlideProducts />
       <NewsLetter />
       <Footer />
+      <FooterCards />
     </div>
   )
 }

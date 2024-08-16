@@ -31,9 +31,9 @@
                                         <div className="flex relative flex-col items-start pt-6 pb-20 w-full aspect-square max-md:pr-5">
                                             <img src={Img03.src} alt="" className="object-cover absolute inset-0 size-full"
                                             />
-                                                <div className="relative px-3 py-2 mb-32 bg-gray-800 max-md:mb-10">
+                                                <span className="relative px-3 py-2 mb-32 bg-gray-800 max-md:mb-10">
                                                 sale
-                                                </div>
+                                                </span>
                                         </div>
                                     </div>
                                 </div>

@@ -13,7 +13,8 @@ const ImageComponent = () => {
             {/* ---------- IMAGE 01 ---------- */}
             <div className='flex flex-col gap-3'>
                 <img src={Img11.src} alt=""  className='w-96'/> 
-                    <p className='text-black font-semibold'>Basic Dress Green
+                    <p className='text-black font-semibold'>
+                        Basic Dress Green
                     </p>
                         <div className='flex flex-row justify-between'>
                             <p className='text-slate-600'>Dress</p>
@@ -24,7 +25,8 @@ const ImageComponent = () => {
             {/* ---------- IMAGE 02 ---------- */}
             <div className='flex flex-col gap-3'>
                 <img src={Img14.src} alt=""  className='w-96'/> 
-                    <p className='text-black font-semibold'>Basic Dress Green
+                    <p className='text-black font-semibold'>
+                        Basic Dress Green
                     </p>
                         <div className='flex flex-row justify-between'>
                             <p className='text-slate-600'>Dress</p>

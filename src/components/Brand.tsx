@@ -1,4 +1,3 @@
-import React from 'react'
 import brand from "../assets/brand.svg"
 
 const Brand = () => {
