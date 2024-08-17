@@ -8,14 +8,14 @@ const SlideProducts = () => {
                 <h1 className='text-black font-semibold text-6xl'>Best Sellers</h1>
             </div>
             <div className='flex flex-row justify-between w-full items-center mt-5'>             
-                <ul className='flex flex-row ml-24 gap-5 text-black font-semibold'>
-                    <li>All products</li>
-                    <li>T-shirt</li>
-                    <li>Hoodies</li>
-                    <li>Jackets</li>
+                <ul className='flex flex-row ml-24 gap-5 text-black'>
+                    <li className="py-1.5 text-black list-none hover:font-semibold cursor-pointer">All products</li>
+                    <li className="py-1.5 text-black list-none hover:font-semibold cursor-pointer">T-shirt</li>
+                    <li className="py-1.5 text-black list-none hover:font-semibold cursor-pointer">Hoodies</li>
+                    <li className="py-1.5 text-black list-none hover:font-semibold cursor-pointer">Jackets</li>
                 </ul>    
                     <div className='mr-28'>
-                        <button className='bg-slate-800 h-10 w-24 text-white'>
+                        <button className='bg-slate-800 h-10 w-24 text-white cursor-pointer'>
                             Show All
                         </button>
                     </div>
