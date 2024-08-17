@@ -18,14 +18,14 @@ const Gridproducts = () => {
             <div className="flex ga-5 justify-between mt-9 w-full max-md:flex-wrap max-md:max-w-full">
                 <nav className="flex gap-5 justify-between px-5 my-auto text-base capitalize text-black text-opacity-50">
                     <ul className="flex flex-row gap-10">
-                        <li className="py-1.5 text-black list-none hover:font-semibold">all products</li>
-                        <li className="py-1.5 whitespace-nowrap list-none hover:font-semibold">t-shirt</li>
-                        <li className="py-1.5 whitespace-nowrap list-none hover:font-semibold">hoodies</li>
-                        <li className="py-1.5 whitespace-nowrap list-none hover:font-semibold">jacket</li>
+                        <li className="py-1.5 text-black list-none hover:font-semibold cursor-pointer">All Products</li>
+                        <li className="py-1.5 text-black list-none hover:font-semibold cursor-pointer">T-Shirt</li>
+                        <li className="py-1.5 text-black list-none hover:font-semibold cursor-pointer">Hoodies</li>
+                        <li className="py-1.5 text-black list-none hover:font-semibold cursor-pointer">Jacket</li>
                     </ul>                    
                 </nav>
                 <div className="flex gap-1 justify-between px-4 py1.5 text-white whitenospace-nowrap bg-gray-800 mr-5 items-center">
-                    <div className="my-auto text-sm font-black text-center">
+                    <div className="my-auto text-sm font-black text-center cursor-pointer">
                         <img src={filterWhite.src} alt="" />
                     </div>
                     <div className="text-base capitalize">filter</div>
@@ -38,7 +38,7 @@ const Gridproducts = () => {
                             <img 
                                 src={Img15.src} 
                                 alt=""
-                                className="w-full aspect-[0.78]" 
+                                className="w-full aspect-[0.78] cursor-pointer" 
                             />
                             <p className="mt-6 font-semibold text-black">
                                 Adicolor Classics Joggers
@@ -56,7 +56,7 @@ const Gridproducts = () => {
                             <img 
                                     src={Img14.src} 
                                     alt=""
-                                    className="w-full aspect=[0.78]" 
+                                    className="w-full aspect=[0.78] cursor-pointer" 
                                 />
                                 <p className="mt-6 font-semibold text-black">
                                     Nike Sportswear Futura Luxe
@@ -74,7 +74,7 @@ const Gridproducts = () => {
                             <img 
                                 src={Img13.src} 
                                 alt="" 
-                                className="w-full aspect-[0-78]"
+                                className="w-full aspect-[0-78] cursor-pointer"
                                 />
                                 <p className="mt-6 font-semibold text-black">
                                     Geometric print Scarf
@@ -93,7 +93,7 @@ const Gridproducts = () => {
                                 <img 
                                     src={Img04.src} 
                                     alt=""
-                                    className="object-cover absolute inset-0 size-full"
+                                    className="object-cover absolute inset-0 size-full cursor-pointer"
                                 />
 
                                 <p className="relative px-3 py-2 mb-52 bg-gray-800 mx-md:mb-10">
@@ -128,7 +128,7 @@ const Gridproducts = () => {
                                 <img 
                                     src={Img11.src} 
                                     alt=""
-                                    className="object-cover absolute inset-0 size-full"
+                                    className="object-cover absolute inset-0 size-full cursor-pointer"
                                 />
                                 <p className="relative px-3 5 py-2 mb-52 bg-red-400 max-md:mb-10">
                                     hot
@@ -153,7 +153,7 @@ const Gridproducts = () => {
                                 <img 
                                     src={Img12.src} 
                                     alt=""
-                                    className="object-cover absolute inset-0 size-full"
+                                    className="object-cover absolute inset-0 size-full cursor-pointer"
                                 />
 
                                 <p className="relative px-3 py-2 mb-52 bg-gray-800 mx-md:mb-10">
@@ -186,7 +186,7 @@ const Gridproducts = () => {
                             <img 
                                 src={Img17.src} 
                                 alt=""
-                                className="w-full aspect-[0.78]" 
+                                className="w-full aspect-[0.78] cursor-pointer" 
                             />
                             <p className="mt-6 font-semibold text-black">
                                 Nike Repel Miler
@@ -204,9 +204,9 @@ const Gridproducts = () => {
                             <img 
                                 src={Img16.src} 
                                 alt=""
-                                className="w-full aspect-[0.78]" 
+                                className="w-full aspect-[0.78] cursor-pointer" 
                             />
-                            <p className="mt-6 font-semibold text-black">
+                            <p className="mt-6 font-semibold text-black cursor-pointer">
                                 Nike Sportswear Futura Luxe
                             </p>
                             <div className="flex gap-5 justify-between mt-6 whitespace-nowrap">
