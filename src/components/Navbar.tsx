@@ -33,13 +33,13 @@ const Navbar = () => {
             </div>
             <div className="mt-7 w-full border border-solid bg-neutral-200 border-neutral-200 min-h-[1px] max-md:max-w-full" />
             <ul className="flex gap-5 justify-between px-5 mt-8 w-full text-base leading-6 text-black capitalize max-md:flex-wrap max-md:max-w-full">
-                <li className="cursor-pointer">Jewerly & Accessories</li>
-                <li className="cursor-pointer">Clothing & Shoes</li>
-                <li className="cursor-pointer">Home & Living</li>
-                <li className="cursor-pointer">Wedding & Party</li>
-                <li className="cursor-pointer">Toys & Entertainment</li>
-                <li className="cursor-pointer">Art & Collectibles</li>
-                <li className="cursor-pointer">Craft Supplies & Tools</li>
+                <li className="cursor-pointer hover:font-semibold ">Jewerly & Accessories</li>
+                <li className="cursor-pointer hover:font-semibold ">Clothing & Shoes</li>
+                <li className="cursor-pointer hover:font-semibold ">Home & Living</li>
+                <li className="cursor-pointer hover:font-semibold ">Wedding & Party</li>
+                <li className="cursor-pointer hover:font-semibold ">Toys & Entertainment</li>
+                <li className="cursor-pointer hover:font-semibold ">Art & Collectibles</li>
+                <li className="cursor-pointer hover:font-semibold ">Craft Supplies & Tools</li>
             </ul>
         </div>
     )
