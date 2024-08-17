@@ -16,11 +16,11 @@ const Topmain = () => {
               <br />
               from various barands here.
               </p>
-              <div className="flex gap-2 justify-between self-start px-7 py-5 mt-20 text-white bg-gray-800 max-md:px-5 max-md:mt-10">
+              <button className="flex gap-2 justify-between self-start px-7 py-5 mt-20 text-white bg-gray-800 max-md:px-5 max-md:mt-10 transition-transform transform hover:scale-105">
                 <div className="my-auto text-2xl font-black text-center">
                   <img src={bagIcon.src} alt="" /></div>
                 <span className="text-3xl captalize cursor-pointer">shop now</span>
-              </div>
+              </button>
             </div>
           </div>
           <div className="flex flex-col ml-5 max-md:ml-0 max-md:w-full">

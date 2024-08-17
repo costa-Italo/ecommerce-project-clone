@@ -29,31 +29,31 @@ const Footer = () => {
                 <div className="w-96 ml-5">
                     <h1 className="font-bold" >CATALOG</h1>                  
                     <ul className="mt-5">
-                        <li className="text-gray-600 cursor-pointer">Necklaces</li>
-                        <li className="mt-2 text-gray-600 cursor-pointer">Hoodies</li>
-                        <li className="mt-2 text-gray-600 cursor-pointer">Jewerly Box</li>
-                        <li className="mt-2 text-gray-600 cursor-pointer">T-Shirt</li>
-                        <li className="mt-2 text-gray-600 cursor-pointer">Jacket</li>
+                        <li className="text-gray-600 cursor-pointer hover:font-semibold ">Necklaces</li>
+                        <li className="mt-2 text-gray-600 cursor-pointer hover:font-semibold ">Hoodies</li>
+                        <li className="mt-2 text-gray-600 cursor-pointer hover:font-semibold ">Jewerly Box</li>
+                        <li className="mt-2 text-gray-600 cursor-pointer hover:font-semibold ">T-Shirt</li>
+                        <li className="mt-2 text-gray-600 cursor-pointer hover:font-semibold ">Jacket</li>
                     </ul>      
                 </div>
                 <div className="w-96">
                 <h1 className="font-bold" >ABOUT US</h1>                  
                     <ul>
-                        <li className="mt-2 text-gray-600 cursor-pointer">Our Producers</li>
-                        <li className="mt-2 text-gray-600 cursor-pointer">Sitemap</li>
-                        <li className="mt-2 text-gray-600 cursor-pointer">FAQ</li>
-                        <li className="mt-2 text-gray-600 cursor-pointer">About Us</li>
-                        <li className="mt-2 text-gray-600 cursor-pointer">Terms & Conditions</li>
+                        <li className="mt-2 text-gray-600 cursor-pointer hover:font-semibold ">Our Producers</li>
+                        <li className="mt-2 text-gray-600 cursor-pointer hover:font-semibold ">Sitemap</li>
+                        <li className="mt-2 text-gray-600 cursor-pointer hover:font-semibold ">FAQ</li>
+                        <li className="mt-2 text-gray-600 cursor-pointer hover:font-semibold ">About Us</li>
+                        <li className="mt-2 text-gray-600 cursor-pointerhover:font-semibold ">Terms & Conditions</li>
                     </ul>      
                 </div>
                 <div className="w-96">
                 <h1 className="font-bold" >COSTUMER SERVICES</h1>                  
                     <ul>
-                        <li className="mt-2 text-gray-600 cursor-pointer">Contact Us</li>
-                        <li className="mt-2 text-gray-600 cursor-pointer">Track Your Order</li>
-                        <li className="mt-2 text-gray-600 cursor-pointer">Product CAre & Repair</li>
-                        <li className="mt-2 text-gray-600 cursor-pointer">Book An Appoiment</li>
-                        <li className="mt-2 text-gray-600 cursor-pointer">Shipping & Returns</li>
+                        <li className="mt-2 text-gray-600 cursor-pointer hover:font-semibold ">Contact Us</li>
+                        <li className="mt-2 text-gray-600 cursor-pointer hover:font-semibold ">Track Your Order</li>
+                        <li className="mt-2 text-gray-600 cursor-pointer hover:font-semibold ">Product CAre & Repair</li>
+                        <li className="mt-2 text-gray-600 cursor-pointer hover:font-semibold ">Book An Appoiment</li>
+                        <li className="mt-2 text-gray-600 cursor-pointer hover:font-semibold ">Shipping & Returns</li>
                     </ul>      
                 </div>
             </div>      

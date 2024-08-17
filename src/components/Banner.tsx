@@ -12,7 +12,7 @@ const Banner = () => {
             </div>
             <div className="absolute bottom-48 left-2/3 transform -translate-x-1/2 text-white text-3xl z-10 flex flex-col font-light gap-10">
                 Lustrous yet understated. The new evening wear collection exclusively offere at the reopened Giorgio Armani boutique in Los Angeles.
-                <button className='bg-white text-black w-56 h-24 cursor-pointer'>
+                <button className='bg-white text-black w-56 h-24 cursor-pointer transition-transform transform hover:scale-105'>
                     See Collection
                 </button>
             </div>
