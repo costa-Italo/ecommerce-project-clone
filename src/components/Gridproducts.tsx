@@ -38,7 +38,7 @@ const Gridproducts = () => {
                             <img 
                                 src={Img15.src} 
                                 alt=""
-                                className="w-full aspect-[0.78] cursor-pointer" 
+                                className="w-full aspect-[0.78] cursor-pointer transition-transform transform hover:scale-105" 
                             />
                             <p className="mt-6 font-semibold text-black">
                                 Adicolor Classics Joggers
@@ -56,7 +56,7 @@ const Gridproducts = () => {
                             <img 
                                     src={Img14.src} 
                                     alt=""
-                                    className="w-full aspect=[0.78] cursor-pointer" 
+                                    className="w-full aspect=[0.78] cursor-pointer transition-transform transform hover:scale-105" 
                                 />
                                 <p className="mt-6 font-semibold text-black">
                                     Nike Sportswear Futura Luxe
@@ -74,7 +74,7 @@ const Gridproducts = () => {
                             <img 
                                 src={Img13.src} 
                                 alt="" 
-                                className="w-full aspect-[0-78] cursor-pointer"
+                                className="w-full aspect-[0-78] cursor-pointer transition-transform transform hover:scale-105"
                                 />
                                 <p className="mt-6 font-semibold text-black">
                                     Geometric print Scarf
@@ -93,7 +93,7 @@ const Gridproducts = () => {
                                 <img 
                                     src={Img04.src} 
                                     alt=""
-                                    className="object-cover absolute inset-0 size-full cursor-pointer"
+                                    className="object-cover absolute inset-0 size-full cursor-pointer transition-transform transform hover:scale-105"
                                 />
 
                                 <p className="relative px-3 py-2 mb-52 bg-gray-800 mx-md:mb-10">
@@ -128,7 +128,7 @@ const Gridproducts = () => {
                                 <img 
                                     src={Img11.src} 
                                     alt=""
-                                    className="object-cover absolute inset-0 size-full cursor-pointer"
+                                    className="object-cover absolute inset-0 size-full cursor-pointer transition-transform transform hover:scale-105"
                                 />
                                 <p className="relative px-3 5 py-2 mb-52 bg-red-400 max-md:mb-10">
                                     hot
@@ -153,7 +153,7 @@ const Gridproducts = () => {
                                 <img 
                                     src={Img12.src} 
                                     alt=""
-                                    className="object-cover absolute inset-0 size-full cursor-pointer"
+                                    className="object-cover absolute inset-0 size-full cursor-pointer transition-transform transform hover:scale-105"
                                 />
 
                                 <p className="relative px-3 py-2 mb-52 bg-gray-800 mx-md:mb-10">
@@ -186,7 +186,7 @@ const Gridproducts = () => {
                             <img 
                                 src={Img17.src} 
                                 alt=""
-                                className="w-full aspect-[0.78] cursor-pointer" 
+                                className="w-full aspect-[0.78] cursor-pointer transition-transform transform hover:scale-105" 
                             />
                             <p className="mt-6 font-semibold text-black">
                                 Nike Repel Miler
@@ -204,7 +204,7 @@ const Gridproducts = () => {
                             <img 
                                 src={Img16.src} 
                                 alt=""
-                                className="w-full aspect-[0.78] cursor-pointer" 
+                                className="w-full aspect-[0.78] cursor-pointer transition-transform transform hover:scale-105" 
                             />
                             <p className="mt-6 font-semibold text-black cursor-pointer">
                                 Nike Sportswear Futura Luxe

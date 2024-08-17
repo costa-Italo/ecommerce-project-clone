@@ -12,7 +12,7 @@ const ImageComponent = () => {
             
             {/* ---------- IMAGE 01 ---------- */}
             <div className='flex flex-col gap-3'>
-                <img src={Img11.src} alt=""  className='w-96'/> 
+                <img src={Img11.src} alt=""  className='w-96 transition-transform transform hover:scale-105'/> 
                     <p className='text-black font-semibold'>
                         Basic Dress Green
                     </p>
@@ -24,7 +24,7 @@ const ImageComponent = () => {
             
             {/* ---------- IMAGE 02 ---------- */}
             <div className='flex flex-col gap-3'>
-                <img src={Img14.src} alt=""  className='w-96'/> 
+                <img src={Img14.src} alt=""  className='w-96 transition-transform transform hover:scale-105'/> 
                     <p className='text-black font-semibold'>
                         Basic Dress Green
                     </p>
@@ -36,7 +36,7 @@ const ImageComponent = () => {
 
                {/* ---------- IMAGE 03 ---------- */}         
                 <div className='flex flex-col gap-3'>
-                    <img src={Img04.src} alt=""  className='w-96'/> 
+                    <img src={Img04.src} alt=""  className='w-96 transition-transform transform hover:scale-105'/> 
                         <p className='text-black font-semibold'>Basic Dress Green
                     </p>
                         <div className='flex flex-row justify-between'>
@@ -50,7 +50,7 @@ const ImageComponent = () => {
 
             {/* ---------- IMAGE 04 ---------- */}
             <div className='flex flex-col gap-3'>
-                    <img src={Img12.src} alt=""  className='w-96'/> 
+                    <img src={Img12.src} alt=""  className='w-96 transition-transform transform hover:scale-105'/> 
                         <p className='text-black font-semibold'>Basic Dress Green
                     </p>
                         <div className='flex flex-row justify-between'>
