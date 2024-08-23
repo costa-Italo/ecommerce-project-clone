@@ -4,7 +4,7 @@ const ProductPrice = () => {
     return (
         <div className='flex flex-col'>
             <div className='mt-5'>
-                <p>R$ 99,99</p>
+                <p className='font-bold text-orange-500'>R$ 99,99</p>
             </div>
         </div>
     )
