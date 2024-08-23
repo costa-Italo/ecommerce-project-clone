@@ -1,5 +1,6 @@
     import Divider from "@/components/detaills_components/Divider";
 import ImageProduct from "@/components/detaills_components/ImageProduct";
+import ProductDetails from "@/components/detaills_components/ProductDetails";
 import ProductName from "@/components/detaills_components/ProductName";
     import React from "react";
 
@@ -15,9 +16,9 @@ import ProductName from "@/components/detaills_components/ProductName";
                 <Divider />
             </div>
 
-            <div className="flex flex-row gap-5 justify-center items-center">
+            <div className="flex flex-row gap-5 justify-center">
                 <ImageProduct />
-                <div>OUTRAS INFOS</div>
+                <ProductDetails />
             </div>
 
         </div>
