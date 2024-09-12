@@ -1,15 +1,17 @@
 import Header from "@/components/detaills_components/Header";
+import NavigationTabs from "@/components/detaills_components/NavigationTabs";
+import ProductName from "@/components/detaills_components/ProductName";
+import DividerDetails from "../assets/divider.svg"
+import ProductDetails from "@/components/detaills_components/ProductDetails";
 
     const ProductPage = () => {
     return (
         <div className="flex overflow-hidden flex-col bg-white">
             <Header />
-            <p>Detalhe dos produtos</p>
-            <div className="flex gap-6 items-center self-end mt-16 mr-28 max-md:mt-10 max-md:mr-2.5">
-                <p>BANDEIRA DOS CARTÕES</p>
-            </div>
-            <p>Formulário de isncrição</p>
-            <p>Footer</p>
+            <ProductName />
+            <NavigationTabs />
+            <img src={DividerDetails.src} alt="" className="p-16"/>
+            <ProductDetails />
         </div>
     );
     };

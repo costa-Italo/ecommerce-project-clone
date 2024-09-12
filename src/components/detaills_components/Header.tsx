@@ -8,7 +8,7 @@ import SearchInput from "./SearchInput"
 const Header = () => {
   return (
     <header className='flex flex-wrap gap-5 justify-between px-20 pt-6 w-full bg-white max-md:px-5 max-md:max-w-full'>
-        <nav className='flex gap-10 items-start text-base leading-tight text-center uppercase whitespace-nowrap text-zinc-900 items-center'>
+        <nav className='flex gap-10 text-base leading-tight text-center uppercase whitespace-nowrap text-zinc-900 items-center'>
             <img src={LogoStore.src} alt="Logo da loja" className="object-contain shrink-0 aspect-square w-[41px]"/>
             <div className="flex overflow-hidden items-center">
                 <ul className="flex flex-row gap-5">
