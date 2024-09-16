@@ -1,6 +1,7 @@
 import React from 'react'
 import Casaco from "../../assets/casaco.png"
 import Price from './Price'
+import Color from './Color'
 
 const ProductDetails = () => {
   return (
@@ -10,6 +11,7 @@ const ProductDetails = () => {
         </div>
         <div className='flex flex-col'>
           <Price />
+          <Color />
         </div>
     </div>
   )
