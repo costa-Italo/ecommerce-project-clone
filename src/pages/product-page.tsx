@@ -12,6 +12,7 @@ import ProductDetails from "@/components/detaills_components/ProductDetails";
             <NavigationTabs />
             <img src={DividerDetails.src} alt="" className="p-16"/>
             <ProductDetails />
+            
         </div>
     );
     };
