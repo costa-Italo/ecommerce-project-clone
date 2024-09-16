@@ -3,6 +3,7 @@ import Casaco from "../../assets/casaco.png"
 import Price from './Price'
 import Color from './Color'
 import Size from './Size'
+import Amount from './Amount'
 
 const ProductDetails = () => {
   return (
@@ -14,6 +15,7 @@ const ProductDetails = () => {
           <Price />
           <Color />
           <Size />
+          <Amount />
         </div>
     </div>
   )

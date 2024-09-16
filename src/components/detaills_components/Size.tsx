@@ -6,7 +6,7 @@ const Size = () => {
       <p className='text-2xl'>Tamanhos</p>
       <div className='flex flex-row gap-2 mt-3'>
         <form action="">
-            <select name=""  id="escolha" className='border border-gray-400 rounded-sm w-52 h-10'>
+            <select name=""  id="escolha" className='border border-gray-400 rounded-sm w-52 h-10 focus:outline-none'>
                 <option value="" disabled selected>Escolha uma opção</option>
                 <option value="">PP</option>
                 <option value="">P</option>
