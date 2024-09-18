@@ -4,6 +4,7 @@ import Price from './Price'
 import Color from './Color'
 import Size from './Size'
 import Amount from './Amount'
+import Delivery from './Delivery'
 
 const ProductDetails = () => {
   return (
@@ -16,6 +17,7 @@ const ProductDetails = () => {
           <Color />
           <Size />
           <Amount />
+          <Delivery />
         </div>
     </div>
   )
