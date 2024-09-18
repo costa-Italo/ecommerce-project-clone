@@ -7,6 +7,7 @@ import Amount from './Amount'
 import Delivery from './Delivery'
 import Return from './Return'
 import Share from './Share'
+import Payments from './Payments'
 
 const ProductDetails = () => {
   return (
@@ -22,6 +23,7 @@ const ProductDetails = () => {
           <Delivery />
           <Return />
           <Share />
+          <Payments />
         </div>
     </div>
   )
