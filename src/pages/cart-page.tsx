@@ -1,3 +1,5 @@
+import CardInfo from '@/components/cart_page/CardInfo'
+import Container from '@/components/cart_page/Container'
 import TitlePage from '@/components/cart_page/TitlePage'
 import Header from '@/components/detaills_components/Header'
 import ProductDetails from '@/components/detaills_components/ProductDetails'
@@ -8,8 +10,11 @@ function cartPage() {
     <div className="flex overflow-hidden flex-col bg-white">
       <Header />
       <div className='flex flex-row justify-center items center gap-10 mt-5'>
-        <TitlePage />
-        <h1>Cart</h1>
+        <div> 
+          <TitlePage />
+          <CardInfo />
+        </div>      
+        <Container />
       </div>
     </div>
   )
