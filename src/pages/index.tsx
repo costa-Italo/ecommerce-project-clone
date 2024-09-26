@@ -18,10 +18,8 @@ const index = () => {
       <Brand />
       <HotCategory />
       <Gridproducts />
-      <Banner />
       <SlideProducts />
       <NewsLetter />
-      <Footer />
       <FooterCards />
     </div>
   )

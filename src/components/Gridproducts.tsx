@@ -59,27 +59,7 @@
         </h1>
 
         <div className="flex ga-5 justify-between mt-9 w-full max-md:flex-wrap max-md:max-w-full">
-            <nav className="flex gap-5 justify-between px-5 my-auto text-base capitalize text-black text-opacity-50">
-            <ul className="flex flex-row gap-10">
-                <li className="py-1.5 text-black list-none hover:font-semibold cursor-pointer">
-                All Products
-                </li>
-                <li className="py-1.5 text-black list-none hover:font-semibold cursor-pointer">
-                T-Shirt
-                </li>
-                <li className="py-1.5 text-black list-none hover:font-semibold cursor-pointer">
-                Hoodies
-                </li>
-                <li className="py-1.5 text-black list-none hover:font-semibold cursor-pointer">
-                Jacket
-                </li>
-            </ul>
-            </nav>
             <div className="flex gap-1 justify-between px-4 py1.5 text-white whitenospace-nowrap bg-gray-800 mr-5 items-center">
-            <div className="my-auto text-sm font-black text-center cursor-pointer">
-                <img src={filterWhite.src} alt="" />
-            </div>
-            <div className="text-base capitalize">filter</div>
             </div>
         </div>
         <div className="px-5 mt-9 w-full max-md:max-w-full">

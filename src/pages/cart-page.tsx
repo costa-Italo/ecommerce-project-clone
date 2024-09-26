@@ -7,9 +7,9 @@ import React from 'react'
 
 function cartPage() {
   return (
-    <div className="flex overflow-hidden flex-col bg-white">
+    <div className="flex overflow-hidden flex-col">
       <Header />
-      <div className='flex flex-row justify-center items center gap-10 mt-5'>
+      <div className='flex flex-row  items center gap-10 mt-32 justify-evenly'>
         <div> 
           <TitlePage />
           <CardInfo />
