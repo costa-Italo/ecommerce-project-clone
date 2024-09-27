@@ -7,10 +7,9 @@ const NewsLetter = () => {
 
         // CONTAINER
         <div className='bg-gray-100 flex flex-col justify-center items-center p-10'>
-            <h1 className='text-zinc-950 font-medium text-5xl'>Follow products and discounts on Instagram</h1>
+            <h1 className='text-zinc-950 font-medium text-5xl'>Receba ofertas exclusivas no seu e-mail.</h1>
             <div>
             </div>
-            <h1 className='text-zinc-950 font-medium text-5xl mt-10'>Or Subscribe To The Newsletter</h1>
             <NewsletterForm />          
         </div>
     )

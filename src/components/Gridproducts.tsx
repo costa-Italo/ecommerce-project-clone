@@ -55,7 +55,7 @@
     return (
         <div className="flex flex-col p-10">
         <h1 className="self-center text-5xl font-medium text-center text-black capitalize max-md:max-w-ful max-md:text-4xl">
-            Or subscribe to the newsletter
+            Opções para homens e mulheres
         </h1>
 
         <div className="flex ga-5 justify-between mt-9 w-full max-md:flex-wrap max-md:max-w-full">
@@ -68,8 +68,8 @@
                 <div className="flex flex-col grow py-0.5 text-base capitalize max-md:mt-6">
                 <ProductCard
                     imageSrc={Img15.src}
-                    productName="Adicolor Classics Joggers"
-                    productCategory="Dress"
+                    productName="Calça feminina adicolor rosa"
+                    productCategory="Calça fem"
                     productPrice="$R$ 69,90"
                 />
                 </div>
@@ -79,8 +79,8 @@
                 <div className="flex flex-col grow py-px text-base capitalize max-md:mt-6">
                 <ProductCard
                     imageSrc={Img14.src}
-                    productName="Nike Sportswear Futura Luxe"
-                    productCategory="Bag"
+                    productName="Mochila nike feminina rosa"
+                    productCategory="Mochila"
                     productPrice="R$129,90"
                 />
                 </div>
@@ -89,8 +89,8 @@
                 <div className="flex flex-col grow py05 text-base capitalize max-md:mt-6">
                 <ProductCard
                     imageSrc={Img13.src}
-                    productName="Geometric print Scarf"
-                    productCategory="scarf"
+                    productName="Cachecol colorido"
+                    productCategory="Cachecol"
                     productPrice="R$89,90"
                 />
                 </div>
@@ -99,9 +99,9 @@
                 <div className="flex flex-col grow py05 text-base capitalize max-md:mt-6">
                 <ProductCard
                     imageSrc={Img11.src}
-                    productName="Yellow Reserved Hoodie"
-                    productCategory="Dress"
-                    productPrice="R$89,90"
+                    productName="Vestido verde longo"
+                    productCategory="Vestido"
+                    productPrice="R$149,90"
                 />
                 </div>
             </div>
@@ -112,11 +112,11 @@
             <div className="flex gap-5 max-md:flex-col">
             <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
                 <div className="flex flex-col grow py-0.5 text-base capitalize max-md:mt-6">
-                <div className="flex relative flex-col items-start pt-6 pb-20 w-full text-x font-semibold text-center text-white uppercase whitespace-nowrap max-md:pr-5 aspect-[0.78]">
+                <div className="flex relative flex-col items-start pt-6 pb-20 w-full text-x font-semibold text-base text-white uppercase whitespace-nowrap max-md:pr-5 aspect-[0.78]">
                     <ProductCard
                     imageSrc={Img12.src}
-                    productName="Nike Air Zoom Pegasus"
-                    productCategory="shoe"
+                    productName="Têsnis Nike Air Zoom Pegasus"
+                    productCategory="Tênis"
                     productPrice="R$129,90"
                     />
                 </div>
@@ -128,9 +128,9 @@
                 <div className="flex relative flex-col items-start pt-6 pb-20 w-full text-xs font-semibold text-white uppercase whitespace-nowrap max-md:pr-5 aspect-[0.78]">
                     <ProductCard
                     imageSrc={Img04.src}
-                    productName="Yellow Reserved Hoodie"
-                    productCategory="Dress"
-                    productPrice="$155.00"
+                    productName="Casaco masculino amarelo"
+                    productCategory="Casaco"
+                    productPrice="R$ 149,90"
                     />
                 </div>
                 </div>
@@ -141,8 +141,8 @@
                 <div className="flex relative flex-col items-start pt-6 pb-20 w-full text-xs font-semibold text-white uppercase whitespace-nowrap max-md:pr-5 aspect-[0.78]">
                     <ProductCard
                     imageSrc={Img17.src}
-                    productName="Nike Repel Miler"
-                    productCategory="Dress"
+                    productName="Agasalho nike azul"
+                    productCategory="Casaco"
                     productPrice="R$119,90"
                     />
                 </div>
@@ -154,8 +154,8 @@
                 <div className="flex relative flex-col items-start pt-6 pb-20 w-full text-xs font-semibold text-white uppercase whitespace-nowrap max-md:pr-5 aspect-[0.78]">
                     <ProductCard
                     imageSrc={Img16.src}
-                    productName="Nike Sportswear Futura Luxe"
-                    productCategory="Glasses"
+                    productName="[Óculos nike unissex"
+                    productCategory="Óculos"
                     productPrice="R$149,90"
                     />
                 </div>
