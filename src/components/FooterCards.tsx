@@ -3,9 +3,9 @@ import ArrowUp from "../assets/ArrowUp.svg"
 
 const FooterCards = () => {
     return (
-        <div className='bg-black flex items-center justify-between p-2'>
+        <div className='bg-gray-950 flex items-center justify-between p-2'>
             <div>
-                <h1 className="text-gray-300">© 2022 Coral , Inc.</h1>
+                <h1 className="text-gray-50">© 2022 Coral , Inc.</h1>
             </div>
 
             <div>
@@ -17,7 +17,7 @@ const FooterCards = () => {
 
             <div>
                 <button className="flex flex-row items-center gap-2">
-                    <p className="text-gray-300">Scroll to top</p>
+                    <p className="text-gray-50">Scroll to top</p>
                     <img src={ArrowUp.src} alt="" />
                 </button>
             </div>

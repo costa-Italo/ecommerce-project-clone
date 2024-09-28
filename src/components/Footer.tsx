@@ -6,7 +6,7 @@ import Instagram from "../assets/instagramIcon.svg"
 
 const Footer = () => {
     return (
-        <div className='bg-white flex justify-center items-center h-96 p-36 ml-20'>
+        <div className='bg-gray-950 flex justify-center items-center h-96 p-36 ml-20'>
             <div className='flex flex-row items-center justify-center w-full'>
                 <div className="w-96">
                     <img src={LogoCoral.src} alt="" />

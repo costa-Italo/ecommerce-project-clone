@@ -9,7 +9,7 @@ const NewsletterForm = () => {
                     className="bg-transparent outline-none w-96 text-center"
                 />           
         </form>
-        <button className="px-7 py-5 text-white bg-gray-800 max-md:px-5 transition-transform transform hover:scale-105 w-44 h-14 flex items-center justify-center">
+        <button className="px-7 py-5 text-white bg-gray-950 max-md:px-5 transition-transform transform hover:scale-105 w-44 h-14 flex items-center justify-center text-gray-50 rounded-lg">
                     Enviar
         </button>
     </div>

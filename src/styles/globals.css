@@ -4,14 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --primary: #FF6F61;
-  --black: #1E2832;
-  --white: #ffffff;
-  --dark: #000000;
-  --stroke: #E3E3E3;
-}
-
 * {
   font-family: "Inter", sans-serif;
 }
