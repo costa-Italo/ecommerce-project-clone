@@ -34,7 +34,7 @@
             <img
             src={imageSrc}
             alt={productName}
-            className="w-full aspect-[0.78] cursor-pointer transition-transform transform hover:scale-105"
+            className="w-full aspect-[0.78] cursor-pointer transition-transform transform hover:scale-105 rounded-lg"
             />
             {isHovered && (
             <button className="absolute bottom-0 left-0 w-full bg-orange-500 text-white py-2 text-center transition-opacity">

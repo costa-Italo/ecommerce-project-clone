@@ -8,11 +8,11 @@ const ImageComponent = () => {
     return (
 
         // ---------- CONTAINER ----------
-        <div className='flex flex-row gap-5 p-24'>
+        <div className='flex flex-row gap-5 p-24 '>
             
             {/* ---------- IMAGE 01 ---------- */}
-            <div className='flex flex-col gap-3'>
-                <img src={Img11.src} alt=""  className='w-96 transition-transform transform hover:scale-105'/> 
+            <div className='flex flex-col gap-3 '>
+                <img src={Img11.src} alt=""  className='w-96 transition-transform transform hover:scale-105 rounded-lg'/> 
                     <p className='text-black font-semibold'>
                     Vestido verde longo
                     </p>
@@ -24,7 +24,7 @@ const ImageComponent = () => {
             
             {/* ---------- IMAGE 02 ---------- */}
             <div className='flex flex-col gap-3'>
-                <img src={Img14.src} alt=""  className='w-96 transition-transform transform hover:scale-105'/> 
+                <img src={Img14.src} alt=""  className='w-96 transition-transform transform hover:scale-105 rounded-lg'/> 
                     <p className='text-black font-semibold'>
                     Mochila nike feminina rosa
                     </p>
@@ -36,7 +36,7 @@ const ImageComponent = () => {
 
                {/* ---------- IMAGE 03 ---------- */}         
                 <div className='flex flex-col gap-3'>
-                    <img src={Img04.src} alt=""  className='w-96 transition-transform transform hover:scale-105'/> 
+                    <img src={Img04.src} alt=""  className='w-96 transition-transform transform hover:scale-105 rounded-lg'/> 
                         <p className='text-black font-semibold'>Casaco masculino amarelo
                     </p>
                         <div className='flex flex-row justify-between'>
@@ -50,7 +50,7 @@ const ImageComponent = () => {
 
             {/* ---------- IMAGE 04 ---------- */}
             <div className='flex flex-col gap-3'>
-                    <img src={Img12.src} alt=""  className='w-96 transition-transform transform hover:scale-105'/> 
+                    <img src={Img12.src} alt=""  className='w-96 transition-transform transform hover:scale-105 rounded-lg'/> 
                         <p className='text-black font-semibold'>Tênis Nike Air Zoom Pegasus
                     </p>
                         <div className='flex flex-row justify-between'>
