@@ -1,4 +1,3 @@
-    import filterWhite from "../assets/filterWhite.svg";
     import Img15 from "../assets/15.png";
     import Img14 from "../assets/14.png";
     import Img13 from "../assets/13.png";
@@ -59,8 +58,7 @@
         </h1>
 
         <div className="flex ga-5 justify-between mt-9 w-full max-md:flex-wrap max-md:max-w-full">
-            <div className="flex gap-1 justify-between px-4 py1.5 text-white whitenospace-nowrap bg-gray-800 mr-5 items-center">
-            </div>
+            <div className="flex gap-1 justify-between px-4 py1.5 text-white whitenospace-nowrap bg-gray-800 mr-5 items-center"></div>
         </div>
         <div className="px-5 mt-9 w-full max-md:max-w-full">
             <div className="flex gap-5 max-md:flex-col">
