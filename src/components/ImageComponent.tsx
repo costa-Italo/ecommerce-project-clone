@@ -1,68 +1,93 @@
-import React from 'react'
-import Img11 from "../assets/11.png"
-import Img14 from "../assets/14.png"
-import Img04 from "../assets/04.png"
-import Img12 from "../assets/12.png"
+    import React from "react";
+    import Img11 from "../assets/11.png";
+    import Img14 from "../assets/14.png";
+    import Img04 from "../assets/04.png";
+    import Img12 from "../assets/12.png";
+    import { useHoverBuyButton } from "@/hooks";
 
-const ImageComponent = () => {
+    interface ProductCardProps {
+    imageSrc: string;
+    productName: string;
+    productCategory: string;
+    productPrice: string;
+    }
+
+    const ProductCard: React.FC<ProductCardProps> = ({
+    imageSrc,
+    productName,
+    productCategory,
+    productPrice,
+    }) => {
+    const { isHovered, handleMouseEnter, handleMouseLeave } = useHoverBuyButton();
+
+    return (
+        <div
+        className="flex flex-col grow py-0.5 text-base capitalize max-md:mt-6"
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        >
+        <div className="relative group">
+            <img
+            src={imageSrc}
+            alt={productName}
+            className="w-full aspect-[0.78] cursor-pointer transition-transform transform hover:scale-105 rounded-lg"
+            />
+            {isHovered && (
+            <button className="absolute bottom-0 left-0 w-full bg-orange-500 text-white py-2 text-center transition-opacity">
+                Comprar
+            </button>
+            )}
+        </div>
+        <p className="mt-6 font-semibold text-black">{productName}</p>
+        <div className="flex gap-5 justify-between mt-6 whitespace-nowrap">
+            <p className="text-gray-600">{productCategory}</p>
+            <p className="font-semibold text-right text-black">{productPrice}</p>
+        </div>
+        </div>
+    );
+    };
+
+    const ImageComponent = () => {
     return (
 
-        // ---------- CONTAINER ----------
-        <div className='flex flex-row gap-5 p-24 '>
-            
-            {/* ---------- IMAGE 01 ---------- */}
-            <div className='flex flex-col gap-3 '>
-                <img src={Img11.src} alt=""  className='w-96 transition-transform transform hover:scale-105 rounded-lg'/> 
-                    <p className='text-black font-semibold'>
-                    Vestido verde longo
-                    </p>
-                        <div className='flex flex-row justify-between'>
-                            <p className='text-slate-600'>Vestido</p>
-                            <p className='text-black font-semibold'>R$149,90</p>
-                        </div>
-            </div>
-            
-            {/* ---------- IMAGE 02 ---------- */}
-            <div className='flex flex-col gap-3'>
-                <img src={Img14.src} alt=""  className='w-96 transition-transform transform hover:scale-105 rounded-lg'/> 
-                    <p className='text-black font-semibold'>
-                    Mochila nike feminina rosa
-                    </p>
-                        <div className='flex flex-row justify-between'>
-                            <p className='text-slate-600'>Mochila</p>
-                            <p className='text-black font-semibold'>R$129,90</p>
-                        </div>
-            </div>
-
-               {/* ---------- IMAGE 03 ---------- */}         
-                <div className='flex flex-col gap-3'>
-                    <img src={Img04.src} alt=""  className='w-96 transition-transform transform hover:scale-105 rounded-lg'/> 
-                        <p className='text-black font-semibold'>Casaco masculino amarelo
-                    </p>
-                        <div className='flex flex-row justify-between'>
-                            <p className='text-slate-600'>Casaco</p>
-                                <div className='flex flex-row gap-2 items-center'>
-                                    <p className='text-slate-600 font-normal text-sm line-through'>R$ 149,90</p>
-                                    <p className='text-black font-semibold text-red-500'>R$ 149,00</p>
-                            </div>                    
-                        </div>
-                </div>
-
-            {/* ---------- IMAGE 04 ---------- */}
-            <div className='flex flex-col gap-3'>
-                    <img src={Img12.src} alt=""  className='w-96 transition-transform transform hover:scale-105 rounded-lg'/> 
-                        <p className='text-black font-semibold'>Tênis Nike Air Zoom Pegasus
-                    </p>
-                        <div className='flex flex-row justify-between'>
-                            <p className='text-slate-600'>Tênis</p>
-                                <div className='flex flex-row gap-2 items-center'>
-                                    <p className='text-slate-600 font-normal text-sm line-through'>R$159,90</p>
-                                    <p className='text-black font-semibold text-red-500'>R$129,90</p>
-                            </div>                    
-                        </div>
-                </div>
+        <div className="flex flex-row gap-5 p-24 ">
+        <div className="flex flex-col gap-3 ">
+            <ProductCard
+            imageSrc={Img11.src}
+            productName="Vestido verde longo"
+            productCategory="Vestido"
+            productPrice="R$149,90"
+            />
         </div>
-    )
-}
 
-export default ImageComponent
+        <div className="flex flex-col gap-3">
+            <ProductCard
+            imageSrc={Img14.src}
+            productName="Mochila nike feminina rosa"
+            productCategory="Mochila"
+            productPrice="R$129,90"
+            />
+        </div>
+
+        <div className="flex flex-col gap-3">
+            <ProductCard
+            imageSrc={Img04.src}
+            productName="Casaco masculino amarelo"
+            productCategory="Casaco"
+            productPrice="R$ 149,90"
+            />
+        </div>
+
+        <div className="flex flex-col gap-3">
+            <ProductCard
+            imageSrc={Img12.src}
+            productName="Têsnis Nike Air Zoom Pegasus"
+            productCategory="Tênis"
+            productPrice="R$ 129,90"
+            />
+        </div>
+        </div>
+    );
+    };
+
+    export default ImageComponent;
