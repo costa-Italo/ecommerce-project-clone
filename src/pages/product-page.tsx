@@ -7,7 +7,6 @@ import ProductDetails from "@/components/detaills_components/ProductDetails";
     const ProductPage = () => {
     return (
         <div className="flex overflow-hidden flex-col bg-white">
-            <Header />
             <ProductName />
             <NavigationTabs />
             <img src={DividerDetails.src} alt="" className="p-16"/>
