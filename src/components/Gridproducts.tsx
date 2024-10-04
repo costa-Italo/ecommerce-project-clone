@@ -7,6 +7,7 @@
     import Img17 from "../assets/17.png";
     import Img16 from "../assets/16.png";
     import { useHoverBuyButton } from "../hooks";
+    import { useRouter } from 'next/router'
 
     interface ProductCardProps {
     imageSrc: string;
@@ -21,6 +22,12 @@
     productCategory,
     productPrice,
     }) => {
+        const router = useRouter()
+
+        const handleBuyNow = () => {
+            router.push(`product-page?productName=${encodeURIComponent(productName)}`)
+        }
+
     const { isHovered, handleMouseEnter, handleMouseLeave } = useHoverBuyButton();
 
     return (
@@ -36,7 +43,7 @@
             className="w-full aspect-[0.78] cursor-pointer transition-transform transform hover:scale-105 rounded-lg"
             />
             {isHovered && (
-            <button className="absolute bottom-0 left-0 w-full bg-orange-500 text-white py-2 text-center transition-opacity">
+            <button className="absolute bottom-0 left-0 w-full bg-orange-500 text-white py-2 text-center transition-opacity" onClick={handleBuyNow}>
                 Comprar
             </button>
             )}
