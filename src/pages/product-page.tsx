@@ -1,4 +1,3 @@
-import Header from "@/components/detaills_components/Header";
 import NavigationTabs from "@/components/detaills_components/NavigationTabs";
 import ProductName from "@/components/detaills_components/ProductName";
 import DividerDetails from "../assets/divider.svg"
