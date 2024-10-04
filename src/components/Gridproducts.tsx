@@ -25,7 +25,7 @@
         const router = useRouter()
 
         const handleBuyNow = () => {
-            router.push(`product-page?productName=${encodeURIComponent(productName)}`)
+            router.push(`product-page?productName=${encodeURIComponent(productName)}&imageSrc=${encodeURIComponent(imageSrc)}`)
         }
 
     const { isHovered, handleMouseEnter, handleMouseLeave } = useHoverBuyButton();

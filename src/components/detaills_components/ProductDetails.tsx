@@ -1,5 +1,4 @@
 import React from 'react'
-import Casaco from "../../assets/casaco.png"
 import Price from './Price'
 import Color from './Color'
 import Size from './Size'
@@ -8,12 +7,16 @@ import Delivery from './Delivery'
 import Return from './Return'
 import Share from './Share'
 import Payments from './Payments'
+import {useRouter } from 'next/router'
 
 const ProductDetails = () => {
+  const router = useRouter()
+  const { imageSrc } = router.query
+
   return (
     <div className='flex flex-row justify-center items center gap-10'>
         <div>
-            <img src={Casaco.src} alt=""  className=''/>
+            <img src={imageSrc as string} alt=""  className=''/>
         </div>
         <div className='flex flex-col'>
           <Price />

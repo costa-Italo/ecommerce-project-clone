@@ -2,7 +2,6 @@ import CardInfo from '@/components/cart_page/CardInfo'
 import Container from '@/components/cart_page/Container'
 import TitlePage from '@/components/cart_page/TitlePage'
 import Header from '@/components/detaills_components/Header'
-import ProductDetails from '@/components/detaills_components/ProductDetails'
 import React from 'react'
 
 function cartPage() {
