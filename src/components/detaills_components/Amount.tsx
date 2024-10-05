@@ -1,19 +1,18 @@
 import carrinho from "../../assets/cart.svg";
 import heart from "../../assets/heart.svg";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
 
 interface AmountProps {
   productName: string;
   productPrice: string;
+  imageSrc: string
 }
 
-const Amount: React.FC<AmountProps> = ({ productName, productPrice }) => {
+const Amount: React.FC<AmountProps> = ({ productName, productPrice, imageSrc }) => {
   const router = useRouter();
 
   const handleAddToCart = () => {
-    // Redireciona para a página do carrinho com o nome do produto e o preço como parâmetros
-    router.push(`/cart-page?productName=${encodeURIComponent(productName)}&productPrice=${encodeURIComponent(productPrice)}`);
+    router.push(`/cart-page?productName=${encodeURIComponent(productName)}&productPrice=${encodeURIComponent(productPrice)}&imageSrc=${encodeURIComponent(imageSrc)}`);
   };
 
   return (

@@ -23,7 +23,7 @@ const ProductDetails = () => {
           <Price />
           <Color />
           <Size />
-          <Amount productName={productName as string} productPrice={productPrice as string}/>
+          <Amount productName={productName as string} productPrice={productPrice as string} imageSrc={imageSrc as string}/>
           <Delivery />
           <Return />
           <Share />
