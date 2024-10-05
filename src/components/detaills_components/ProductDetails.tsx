@@ -9,9 +9,10 @@ import Share from './Share'
 import Payments from './Payments'
 import { useRouter } from 'next/router'
 
+
 const ProductDetails = () => {
   const router = useRouter()
-  const { imageSrc } = router.query
+  const { imageSrc, productName, productPrice } = router.query
 
   return (
     <div className='flex flex-row justify-center items center gap-10'>
@@ -22,7 +23,7 @@ const ProductDetails = () => {
           <Price />
           <Color />
           <Size />
-          <Amount />
+          <Amount productName={productName as string} productPrice={productPrice as string}/>
           <Delivery />
           <Return />
           <Share />
