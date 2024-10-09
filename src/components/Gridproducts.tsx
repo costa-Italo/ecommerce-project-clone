@@ -13,7 +13,7 @@
     imageSrc: string;
     productName: string;
     productCategory: string;
-    productPrice: string;
+    productPrice: number;
     }
 
     const ProductCard: React.FC<ProductCardProps> = ({
@@ -51,7 +51,9 @@
         <p className="mt-6 font-semibold text-black">{productName}</p>
         <div className="flex gap-5 justify-between mt-6 whitespace-nowrap">
             <p className="text-gray-600">{productCategory}</p>
-            <p className="font-semibold text-right text-black">{productPrice}</p>
+            <p className="font-semibold text-right text-black">
+                {productPrice.toLocaleString('pt-Br', { style:'currency', currency:'BRL' })}
+            </p>
         </div>
         </div>
     );
@@ -75,7 +77,7 @@
                     imageSrc={Img15.src}
                     productName="Calça feminina adicolor rosa"
                     productCategory="Calça fem"
-                    productPrice="$R$ 69,90"
+                    productPrice={69.90}
                 />
                 </div>
             </div>
@@ -86,7 +88,7 @@
                     imageSrc={Img14.src}
                     productName="Mochila nike feminina rosa"
                     productCategory="Mochila"
-                    productPrice="R$129,90"
+                    productPrice={129.90}
                 />
                 </div>
             </div>
@@ -96,7 +98,7 @@
                     imageSrc={Img13.src}
                     productName="Cachecol colorido"
                     productCategory="Cachecol"
-                    productPrice="R$89,90"
+                    productPrice={89.90}
                 />
                 </div>
             </div>
@@ -106,7 +108,7 @@
                     imageSrc={Img11.src}
                     productName="Vestido verde longo"
                     productCategory="Vestido"
-                    productPrice="R$149,90"
+                    productPrice={149.90}
                 />
                 </div>
             </div>
@@ -122,7 +124,7 @@
                     imageSrc={Img12.src}
                     productName="Têsnis Nike Air Zoom Pegasus"
                     productCategory="Tênis"
-                    productPrice="R$129,90"
+                    productPrice={129.90}
                     />
                 </div>
                 </div>
@@ -135,7 +137,7 @@
                     imageSrc={Img04.src}
                     productName="Casaco masculino amarelo"
                     productCategory="Casaco"
-                    productPrice="R$ 149,90"
+                    productPrice={149.90}
                     />
                 </div>
                 </div>
@@ -148,7 +150,7 @@
                     imageSrc={Img17.src}
                     productName="Agasalho nike azul"
                     productCategory="Casaco"
-                    productPrice="R$119,90"
+                    productPrice={119.90}
                     />
                 </div>
                 </div>
@@ -159,9 +161,9 @@
                 <div className="flex relative flex-col items-start pt-6 pb-20 w-full text-xs font-semibold text-white uppercase whitespace-nowrap max-md:pr-5 aspect-[0.78]">
                     <ProductCard
                     imageSrc={Img16.src}
-                    productName="[Óculos nike unissex"
+                    productName="Óculos nike unissex"
                     productCategory="Óculos"
-                    productPrice="R$149,90"
+                    productPrice={149.90}
                     />
                 </div>
                 </div>
