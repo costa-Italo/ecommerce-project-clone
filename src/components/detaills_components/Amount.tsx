@@ -1,24 +1,38 @@
+import { useProduct } from "../../context/ProductContext"; // Importando o contexto
 import carrinho from "../../assets/cart.svg";
 import heart from "../../assets/heart.svg";
 import { useRouter } from "next/router";
 
 interface AmountProps {
   productName: string;
-  productPrice: string;
+  productPrice: number;
   imageSrc: string
 }
 
 const Amount: React.FC<AmountProps> = ({ productName, productPrice, imageSrc }) => {
   const router = useRouter();
+  const { quantity, setQuantity, setProductName, setProductPrice } = useProduct()
+
+  const calculateTotalPrice = () => {
+    return (productPrice* quantity).toFixed(2)
+  }
+
+  const handleQuantityChange = (event:React.ChangeEvent<HTMLInputElement>) => {
+    const newQuantity = Number(event.target.value)
+    setQuantity(Number(event.target.value))
+    setProductPrice(productPrice)
+  }
 
   const handleAddToCart = () => {
-    router.push(`/cart-page?productName=${encodeURIComponent(productName)}&productPrice=${encodeURIComponent(productPrice)}&imageSrc=${encodeURIComponent(imageSrc)}`);
+    const totalPrice = calculateTotalPrice()
+    setProductName(productName)
+    router.push(`/cart-page?productName=${encodeURIComponent(productName)}&productPrice=${encodeURIComponent(totalPrice)}&imageSrc=${encodeURIComponent(imageSrc)}`);
   };
 
   return (
     <div className='mt-5 flex flex-row gap-3'>
       <form action="">
-        <input type="number" className='border border-gray-400 p-3 w-14 text-center rounded-sm focus:outline-none' />
+        <input type="number" className='border border-gray-400 p-3 w-14 text-center rounded-sm focus:outline-none' value={quantity} onChange={handleQuantityChange} min={1}/>
       </form>
 
       <button
