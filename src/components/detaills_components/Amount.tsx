@@ -1,7 +1,8 @@
-import { useProduct } from "../../context/ProductContext"; // Importando o contexto
+import { useProduct } from "../../context/ProductContext"; 
 import carrinho from "../../assets/cart.svg";
 import heart from "../../assets/heart.svg";
 import { useRouter } from "next/router";
+import { useEffect } from "react";
 
 interface AmountProps {
   productName: string;
@@ -12,6 +13,11 @@ interface AmountProps {
 const Amount: React.FC<AmountProps> = ({ productName, productPrice, imageSrc }) => {
   const router = useRouter();
   const { quantity, setQuantity, setProductName, setProductPrice } = useProduct()
+
+  useEffect(() => {
+    setProductPrice(productPrice)
+    setProductName(productName)
+  }, [productPrice, productName, setProductName])
 
   const calculateTotalPrice = () => {
     return (productPrice* quantity).toFixed(2)
