@@ -12,12 +12,12 @@ const Topmain = () => {
                 Coral Store
               </h1>
               <p className="mt-16 text-3xl captalize max-md:mt-10 max-md:max-w-full leadind-[55px]">
-              Explore as melhores opções desta estação para você
+              Elegância e Praticidade: Roupas Para Eles e Para Elas
               </p>
               <button className="flex gap-2 justify-between self-start px-7 py-7 mt-20 text-white bg-gray-950 max-md:px-5 max-md:mt-10 transition-transform transform hover:scale-105 rounded-lg">
                 <div className="my-auto text-2xl font-black text-center">
                   <img src={bagIcon.src} alt="" /></div>
-                <span className="text-3xl captalize cursor-pointer text-gray-50">Comprar Agora</span>
+                <span className="text-3xl captalize cursor-pointer text-gray-50">Veja suas opções abaixo</span>
               </button>
             </div>
           </div>

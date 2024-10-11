@@ -1,14 +1,11 @@
-import Banner from '@/components/Banner'
-import Brand from '@/components/Brand'
-import Footer from '@/components/Footer'
-import FooterCards from '@/components/FooterCards'
-import Gridproducts from '@/components/Gridproducts'
-import HotCategory from '@/components/HotCategory'
-import Navbar from '@/components/Navbar'
-import NewsLetter from '@/components/NewsLetter'
-import SlideProducts from '@/components/SlideProducts'
-import Topmain from '@/components/Topmain'
-import React from 'react'
+import Brand from "@/components/Brand";
+import FooterCards from "@/components/FooterCards";
+import Gridproducts from "@/components/Gridproducts";
+import Navbar from "@/components/Navbar";
+import NewsLetter from "@/components/NewsLetter";
+import SlideProducts from "@/components/SlideProducts";
+import Topmain from "@/components/Topmain";
+import React from "react";
 
 const index = () => {
   return (
@@ -16,13 +13,11 @@ const index = () => {
       <Navbar />
       <Topmain />
       <Brand />
-      <HotCategory />
       <Gridproducts />
-      <SlideProducts />
       <NewsLetter />
       <FooterCards />
     </div>
-  )
-}
+  );
+};
 
-export default index
+export default index;
